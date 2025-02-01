@@ -1,0 +1,149 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Navigation Bar */
+.nav {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 0px 10px black;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu span {
+    margin: 0 15px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.menu span:hover {
+    color: cyan;
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+/* Container with Intense Glow Effect */
+.container {
+    width: 60%; /* Adjusted to 60% width */
+    max-width: 600px; /* Reduced max width to 600px */
+    background: rgb(18, 100, 97); /* Dark background for contrast */
+    padding: 2rem;
+    border-radius: 12px; /* Rounded corners */
+    margin-top: 80px; /* Adjusted for navbar */
+    text-align: center;
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+
+
+/* Add a Hover Effect for More Glow */
+.container:hover {
+    box-shadow: 0px 0px 50px 10px rgba(0, 255, 255, 1); /* Strong cyan glow on hover */
+    transform: translateY(-8px); /* Slight lift effect */
+}
+
+
+
+
+/* Profile Image */
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.ImageContainer {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 3px solid cyan;
+}
+
+.Image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Animated Note */
+.Note {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: cyan;
+    transition: 0.5s;
+}
+
+.Note:hover {
+    transform: scale(1.1);
+}
+
+/* Section Titles */
+.section {
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    color: cyan;
+    border-bottom: 2px solid cyan;
+    padding-bottom: 5px;
+}
+
+/* List Styling */
+ul {
+    list-style: none;
+    padding-left: 1rem;
+}
+
+ul li {
+    margin: 0.3rem 0;
+    font-size: 1rem;
+}
+
+/* Links */
+a {
+    color: cyan;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+body {
+    background: black;
+}
+

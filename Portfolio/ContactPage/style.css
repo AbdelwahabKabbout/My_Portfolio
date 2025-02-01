@@ -1,0 +1,76 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Container with Glowing Effect */
+.container {
+    width: 80%;
+    max-width: 600px;
+    background: rgb(18, 100, 97); /* Dark background for contrast */
+    padding: 2rem;
+    border-radius: 12px; /* Rounded corners */
+    margin-top: 80px; /* Adjusted for navbar */
+    text-align: center;
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transition */
+    box-shadow: 0px 0px 20px 4px rgba(0, 255, 255, 0.8); /* Cyan glow effect */
+}
+
+/* Add a Hover Effect for More Glow */
+.container:hover {
+    box-shadow: 0px 0px 50px 10px rgba(0, 255, 255, 1); /* Strong cyan glow */
+    transform: translateY(-8px); /* Slight lift effect */
+}
+
+/* Section Titles */
+.section {
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    color: cyan;
+    border-bottom: 2px solid cyan;
+    padding-bottom: 5px;
+}
+
+/* List Styling */
+ul {
+    list-style: none;
+    padding-left: 1rem;
+}
+
+ul li {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+}
+
+/* Links */
+a {
+    color: cyan;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+body{
+    background-color: #000000;
+}
