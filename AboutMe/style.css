@@ -7,8 +7,8 @@
 }
 
 body {
-    background-color: #ffffff;
-    color: white;
+    background-color: #0A0B1C; /* Dark blue background */
+    color: #00FFFF; /* Electric blue text */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,8 +17,8 @@ body {
 
 /* Navigation Bar */
 .nav {
-    background-color: #333;
-    color: white;
+    background-color: #0A0B1C; /* Dark blue background */
+    color: #00FFFF; /* Electric blue text */
     padding: 15px;
     width: 100%;
     text-align: center;
@@ -28,7 +28,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    box-shadow: 0px 0px 10px black;
+    box-shadow: 0px 0px 10px #00FFFF; /* Neon glow effect */
 }
 
 .name {
@@ -43,17 +43,16 @@ body {
 }
 
 .menu span:hover {
-    color: cyan;
+    color: #FFFBF4; /* Soft glow effect */
     transform: scale(1.1);
     transition: transform 0.3s ease-in-out;
 }
 
-
 /* Container with Intense Glow Effect */
 .container {
-    width: 60%; /* Adjusted to 60% width */
+    width: 70%; /* Adjusted to 60% width */
     max-width: 600px; /* Reduced max width to 600px */
-    background: rgb(18, 100, 97); /* Dark background for contrast */
+    background: rgb(18, 100, 97); /* Dark cyan background */
     padding: 2rem;
     border-radius: 12px; /* Rounded corners */
     margin-top: 80px; /* Adjusted for navbar */
@@ -61,16 +60,11 @@ body {
     transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transition */
 }
 
-
-
 /* Add a Hover Effect for More Glow */
 .container:hover {
     box-shadow: 0px 0px 50px 10px rgba(0, 255, 255, 1); /* Strong cyan glow on hover */
     transform: translateY(-8px); /* Slight lift effect */
 }
-
-
-
 
 /* Profile Image */
 .profile {
@@ -85,7 +79,7 @@ body {
     height: 150px;
     overflow: hidden;
     border-radius: 50%;
-    border: 3px solid cyan;
+    border: 3px solid #00FFFF; /* Electric blue border */
 }
 
 .Image {
@@ -100,7 +94,7 @@ body {
     margin-top: 10px;
     font-size: 18px;
     font-weight: 500;
-    color: cyan;
+    color: #00FFFF; /* Electric blue text */
     transition: 0.5s;
 }
 
@@ -118,8 +112,8 @@ body {
     font-weight: bold;
     font-size: 1.3rem;
     margin-bottom: 0.5rem;
-    color: cyan;
-    border-bottom: 2px solid cyan;
+    color: #00FFFF; /* Electric blue text */
+    border-bottom: 2px solid #00FFFF; /* Electric blue underline */
     padding-bottom: 5px;
 }
 
@@ -136,14 +130,10 @@ ul li {
 
 /* Links */
 a {
-    color: cyan;
+    color: #00FFFF; /* Electric blue text */
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
 }
-body {
-    background: black;
-}
-

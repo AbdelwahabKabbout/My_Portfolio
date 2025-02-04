@@ -15,18 +15,21 @@
 }
 
 .Image {
+    border: solid 2px #00FFFF;    ; /* Added border */
+    box-shadow: 0 0 20px #00FFFF; /* Added shadow */
     width: 60%;
     height: 60%;
     object-fit: cover;
-    border-radius: 50%; /* Makes the image circular */
-    object-position: center 20%; /* Adjust to focus on your face */
+    border-radius: 50%; 
+    z-index: 1; 
+    object-position: center 20%; 
 }
 body{
-    background-color: #000000;
+    background-color: #11120D;
 }
 body {
     margin: 0;
-    background: black;
+    background: #0A0B1C;
     overflow: hidden;
 }
 

@@ -7,8 +7,8 @@
 }
 
 body {
-    background-color: #ffffff;
-    color: white;
+    background-color: #0D1B2A; /* Cyberpunk Dark Blue */
+    color: #14FFEC; /* Neon Aqua Text */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,18 +20,18 @@ body {
 .container {
     width: 80%;
     max-width: 600px;
-    background: rgb(18, 100, 97); /* Dark background for contrast */
+    background: #1B263B; /* Dark Blue Container */
     padding: 2rem;
     border-radius: 12px; /* Rounded corners */
     margin-top: 80px; /* Adjusted for navbar */
     text-align: center;
     transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transition */
-    box-shadow: 0px 0px 20px 4px rgba(0, 255, 255, 0.8); /* Cyan glow effect */
+    box-shadow: 0px 0px 20px 4px rgba(0, 166, 251, 0.8); /* Electric Blue Glow */
 }
 
 /* Add a Hover Effect for More Glow */
 .container:hover {
-    box-shadow: 0px 0px 50px 10px rgba(0, 255, 255, 1); /* Strong cyan glow */
+    box-shadow: 0px 0px 50px 10px rgba(20, 255, 236, 1); /* Strong Neon Glow */
     transform: translateY(-8px); /* Slight lift effect */
 }
 
@@ -45,8 +45,8 @@ body {
     font-weight: bold;
     font-size: 1.3rem;
     margin-bottom: 0.5rem;
-    color: cyan;
-    border-bottom: 2px solid cyan;
+    color: #00A6FB; /* Electric Blue Titles */
+    border-bottom: 2px solid #00A6FB;
     padding-bottom: 5px;
 }
 
@@ -63,14 +63,12 @@ ul li {
 
 /* Links */
 a {
-    color: cyan;
+    color: #08F7FE; /* Neon Cyan Links */
     text-decoration: none;
     font-weight: bold;
 }
 
 a:hover {
     text-decoration: underline;
-}
-body{
-    background-color: #000000;
+    color: #14FFEC; /* Neon Aqua Hover */
 }

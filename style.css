@@ -1,55 +1,62 @@
-.nav{
-    background-color: #126461;
-    color: white;
+.nav {
+    background-color: #0A0B1C; /* Dark blue background */
     padding: 10px;
     text-align: center;
-    color: white;
+    color: #00FFFF; /* Electric blue text */
     display: flex;
     justify-content: space-between;
-    box-shadow: black 0px 0px 10px;
+    box-shadow: 0px 0px 10px #00FFFF; /* Neon glow shadow */
 }
-.name{
+
+.name {
     font-size: 30px;
     font-weight: bold;
     display: flex;
     justify-self: center;
     text-align: center;
+    color: #00FFFF; /* Electric blue text */
 }
-.dropdown{
+
+.dropdown {
     display: none;
     position: absolute;
-    background-color: #126461;
-    color: white;
+    background-color: #0A0B1C; /* Dark blue background */
+    color: #00FFFF; /* Electric blue text */
     padding: 10px;
     text-align: center;
     flex-direction: column;
 }
+
 .projects:hover, .Home:hover, .About:hover, .Contact:hover {
     cursor: pointer;
-    color: cyan;
+    color: #FFFBF4; /* Soft glow effect */
     transform: scale(1.1);
     transition: transform 0.3s ease-in-out; /* Smooth effect */
 }
 
-.Note{
+.Note {
     justify-self: center;
-    color:cyan;
+    color: #00FFFF; /* Electric blue text */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: large;
     font-weight: 500;
     transition: 1s;
 }
-.Note:hover{
+
+.Note:hover {
     cursor: pointer;
     transition: 1s;
     scale: 1.2;
 }
-.AboutPage{
+
+.AboutPage {
     display: none;
 }
-.ContactPage{
+
+.ContactPage {
     display: none;
 }
+
 body {
-    background-color: #000 !important;
+    background-color: #0A0B1C !important; /* Dark blue background */
 }
