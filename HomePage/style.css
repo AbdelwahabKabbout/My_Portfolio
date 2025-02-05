@@ -15,15 +15,16 @@
 }
 
 .Image {
-    border: solid 2px #00FFFF;    ; /* Added border */
+    border: solid 2px #00FFFF; /* Added border */
     box-shadow: 0 0 20px #00FFFF; /* Added shadow */
-    width: 60%;
-    height: 60%;
+    width: 50%; /* Scales with parent width */
+    aspect-ratio: 1/1; /* Ensures it's always a perfect circle */
     object-fit: cover;
     border-radius: 50%; 
     z-index: 1; 
-    object-position: center 20%; 
+    object-position: center 10%; 
 }
+
 body{
     background-color: #11120D;
 }

@@ -1,0 +1,130 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0e1a29; /* Dark blue background */
+    color: #e0e0e0; /* Light gray text color for contrast */
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for all projects */
+div {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/* Project 1 */
+.Project1 {
+    display: none;
+    background-color: #1e2a3a; /* Slightly lighter dark blue */
+    border: 2px solid #00bcd4; /* Electric blue border */
+    box-shadow: 0px 4px 15px rgba(0, 188, 212, 0.6); /* Electric blue shadow */
+}
+
+.Project1 h1 {
+    color: #00bcd4; /* Electric blue text */
+    font-size: 2em;
+    text-shadow: 0 0 10px #00bcd4, 0 0 20px #00bcd4; /* Electric blue glow */
+}
+
+.Project1 p {
+    color: #b0c4de; /* Light grayish blue text for readability */
+}
+
+.Project1 ul {
+    color: #b0c4de;
+}
+
+.Project1 strong {
+    color: #00bcd4; /* Electric blue for strong emphasis */
+}
+
+/* Project 2 */
+.Project2 {
+    display: none;
+    background-color: #1e2a3a;
+    border: 2px solid #00bcd4;
+    box-shadow: 0px 4px 15px rgba(0, 188, 212, 0.6);
+}
+
+.Project2 h1 {
+    color: #00bcd4;
+    font-size: 2em;
+    text-shadow: 0 0 10px #00bcd4, 0 0 20px #00bcd4;
+}
+
+.Project2 p {
+    color: #b0c4de;
+}
+
+.Project2 ul {
+    color: #b0c4de;
+}
+
+.Project2 strong {
+    color: #00bcd4;
+}
+
+/* Project 3 */
+.Project3 {
+    display: none;
+    background-color: #1e2a3a;
+    border: 2px solid #00bcd4;
+    box-shadow: 0px 4px 15px rgba(0, 188, 212, 0.6);
+}
+
+.Project3 h1 {
+    color: #00bcd4;
+    font-size: 2em;
+    text-shadow: 0 0 10px #00bcd4, 0 0 20px #00bcd4;
+}
+
+.Project3 p {
+    color: #b0c4de;
+}
+
+.Project3 ul {
+    color: #b0c4de;
+}
+
+.Project3 strong {
+    color: #00bcd4;
+}
+
+/* Project 4 */
+.Project4 {
+    display: none;
+    background-color: #1e2a3a;
+    border: 2px solid #00bcd4;
+    box-shadow: 0px 4px 15px rgba(0, 188, 212, 0.6);
+}
+
+.Project4 h1 {
+    color: #00bcd4;
+    font-size: 2em;
+    text-shadow: 0 0 10px #00bcd4, 0 0 20px #00bcd4;
+}
+
+.Project4 p {
+    color: #b0c4de;
+}
+
+.Project4 ul {
+    color: #b0c4de;
+}
+
+.Project4 strong {
+    color: #00bcd4;
+}
+.Exit{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    justify-self: center;
+    width: 5%;
+    background-color: #1e2a3a;
+    border: 2px solid #00bcd4;
+    box-shadow: 0px 4px 15px rgba(0, 188, 212, 0.6);
+}
