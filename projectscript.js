@@ -12,7 +12,7 @@ $(document).ready(function() {
     }
 
     $(".Exit").click(function() {
-        window.location.href = "https://abdelwahabkabbout.github.io/My_Portfolio/";
+        window.location.href = "index.html";
 
     });
     

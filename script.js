@@ -11,7 +11,7 @@ $(document).ready(function() {
      $('.dropdown-content').click(function(){
         const ProjectName = $(this).text();       
         localStorage.setItem("ProjectName", ProjectName); 
-        window.location.href = "Projects/Project.html";
+        window.location.href = "Project.html";
      });
      $('#HomePage').click(function(){
          $('.HomePage').show();
