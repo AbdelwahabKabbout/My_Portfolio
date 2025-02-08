@@ -12,7 +12,8 @@ $(document).ready(function() {
     }
 
     $(".Exit").click(function() {
-        window.location.href = "/index.html";  
+        window.location.href = "/";
     });
+    
     
 });
