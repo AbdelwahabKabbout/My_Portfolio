@@ -12,7 +12,8 @@ $(document).ready(function() {
     }
 
     $(".Exit").click(function() {
-        window.location.href = "/";
+        window.location.href = "https://abdelwahabkabbout.github.io/My_Portfolio/";
+
     });
     
     
